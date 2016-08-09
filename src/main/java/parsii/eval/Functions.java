@@ -130,10 +130,11 @@ public class Functions {
     /**
      * Provides access to {@link Math#round(double)}
      */
-    public static final Function ROUND = new UnaryFunction() {
+    public static final Function ROUND = new BinaryFunction() {
         @Override
-        protected double eval(double a) {
-            return Math.round(a);
+        protected double eval(double a, double b) {
+            long multipier = Math.round(Math.pow(10, Math.round(b)));
+            return Math.round(multipier*a)/multipier;
         }
     };
 

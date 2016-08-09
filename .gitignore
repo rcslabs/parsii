@@ -1,3 +1,5 @@
 .idea
 target
 parsii.iml
+.gradle
+build
