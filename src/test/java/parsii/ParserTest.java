@@ -9,12 +9,7 @@
 package parsii;
 
 import org.junit.Test;
-import parsii.eval.BinaryOperation;
-import parsii.eval.Expression;
-import parsii.eval.Function;
-import parsii.eval.Parser;
-import parsii.eval.Scope;
-import parsii.eval.Variable;
+import parsii.eval.*;
 import parsii.tokenizer.ParseException;
 
 import java.util.List;

@@ -9,11 +9,7 @@
 package parsii.tokenizer;
 
 import java.io.Reader;
-import java.util.HashSet;
-import java.util.IdentityHashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Turns a stream of characters ({@link Reader} into a stream of {@link Token}, supporting lookahead.
